@@ -40,6 +40,8 @@ public class MaxSubarraySum {
     }
 
     //Kadane's Algorithm
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public static void maxSubarraySum3(int arr[]) {
         int cs = 0;
         int ms = 0;
