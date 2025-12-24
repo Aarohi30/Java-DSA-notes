@@ -1,4 +1,5 @@
 public class validateBST {
+    // Class representing a node in a binary tree
     static class Node {
         int data;
         Node left;
@@ -25,11 +26,12 @@ public class validateBST {
 
          return root;
     }
-
+    //method to start BST validation
     public boolean isValidBST(Node root) {
         return isValidUtil(root, null, null);
     }
-    
+
+    //Helper method to recursively validate BST
     public boolean isValidUtil(Node root, Node leftMax, Node rightMin) {
         if(root == null) {
             return true;
