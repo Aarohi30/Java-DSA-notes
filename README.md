@@ -1,7 +1,13 @@
-# Alpha
+## Java DSA – Interview Preparation
 
-Java Placement Course
+This repository contains Java Data Structures & Algorithms problems
+that I recently reviewed and practiced as part of interview preparation.
 
-## Message for all ALPHAITs <3
+Focus areas:
+- Arrays, Stacks, Queues, Sorting, Recursion, BST, Algorithms, Time and space complexity
+- Common interview patterns
+- Clean Java implementations with explanations
 
-Please feel free to add the rest of the code files or any additional topic that you feel will be helpful by creating a pull request for this repo. Please note - topics like Space & Time Complexity, OOPs have not been included.
+Note:
+This repository is forked from open-source resources and modified
+with my own notes, explanations, and refactoring for learning purposes.
