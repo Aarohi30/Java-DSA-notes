@@ -1,4 +1,5 @@
 public class Diameter {
+    //Reviewed binary trees problem for interviews
     static class Node {
         int data;
         Node left, right;
