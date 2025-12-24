@@ -1,6 +1,10 @@
 import java.util.*;
 
 public class ValidParentheses {
+    // Interview Prep
+    // Pattern: Monotonic Stack
+    // Key Insight: Stack stores indices
+    // Time: O(n), Space: O(n)
     public static boolean isValid(String str) {
         Stack<Character> s = new Stack<>();
         int i=0;
